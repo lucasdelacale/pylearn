@@ -1,3 +1,14 @@
+# Insights and learnings README.md
+
+This repository includes my configs, plugins, installations, guides and others.
+
+Organized within the directories are the configurations and installation support for the development environment.
+
+- It is extremely important to read the README.md files in each directory to ensure that the configurations are made correctly.
+- This repository should be updated as you progress as a developer, storing important learnings and insights for reference when needed.
+- It can be used as a notebook, a way to keep Git and terminal commands fresh in your mind.
+
+
 # Setup config
 
 ### Prompts, plugins, setup, fonts and workflow.
