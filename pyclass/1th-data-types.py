@@ -1,15 +1,19 @@
 #Dynamic typing of Python
 
 #String - simple text
-print("Hello world!")
-print(  type("Hello world!")    )
-
+print(  "Hello world!", type("Hello world!") )
+print()
 
 #Int - whole numbers
-print(1312)
-print(  type(1312)  )
+print(1312, type(1312))
+print()
 
 #Float - floating-point numbers
-print(1.3, 1.2)
-print(  type(1.3),   type(1.2) )
+print(13.12,    type(13.12))
+print()
+
+#Boolean - true or false
+print(10 == 10, type(10 == 10))
+print( 10 == 1, type(10 == 1))
+print()
 
