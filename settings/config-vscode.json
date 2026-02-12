@@ -1,0 +1,32 @@
+{
+  "window.zoomLevel": 0,
+  "workbench.startupEditor": "none",
+  "explorer.compactFolders": false,
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "editor.rulers": [80, 120],
+  "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+  "workbench.iconTheme": "material-icon-theme",
+  "code-runner.executorMap": {
+    "python": "clear ; python -u"
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.ignoreSelection": true,
+  "editor.fontFamily": "Consolas, 'Fira Code', Monaco, monospace",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    }
+  },
+  "python.languageServer": "Pylance",
+  "python.formatting.autopep8Args": [
+    "--indent-size=4",
+    "--max-line-length=80"
+  ],
+  "python.analysis.typeCheckingMode": "off"
+}
