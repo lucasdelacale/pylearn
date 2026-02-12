@@ -7,12 +7,17 @@
   "editor.rulers": [80, 120],
   "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
   "workbench.iconTheme": "material-icon-theme",
+
   "code-runner.executorMap": {
-    "python": "clear ; python -u"
+    "python": "python"
   },
+
   "code-runner.runInTerminal": true,
   "code-runner.ignoreSelection": true,
+  "code-runner.clearPreviousOutput": true,
+
   "editor.fontFamily": "Consolas, 'Fira Code', Monaco, monospace",
+
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
     "editor.tabSize": 4,
@@ -23,10 +28,14 @@
       "source.organizeImports": "explicit"
     }
   },
+
   "python.languageServer": "Pylance",
+
   "python.formatting.autopep8Args": [
     "--indent-size=4",
     "--max-line-length=80"
   ],
-  "python.analysis.typeCheckingMode": "off"
+
+  "python.analysis.typeCheckingMode": "off",
+  "python.defaultInterpreterPath": "python"
 }
