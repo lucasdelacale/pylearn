@@ -13,7 +13,7 @@ multiplication = 10 * 10
 print('Multiplication:', multiplication)
 
 # Division
-division = 10 / 5
+division = 10 / 5 #Float
 print('Division:', division)
 
 # Division of integers
