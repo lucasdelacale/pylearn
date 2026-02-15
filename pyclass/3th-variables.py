@@ -14,6 +14,6 @@ age = 27
 of_legal_age = age >= 18
 
 #Usage
-print(first_name, 'é maior de idade?', of_legal_age)
+print('is', first_name, 'of legal age?', of_legal_age)
 
 
