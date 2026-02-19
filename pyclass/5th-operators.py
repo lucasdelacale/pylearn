@@ -27,3 +27,10 @@ print('Exponentiation:', exponentiation)
 # Absolute value
 absolute = 15 % 2 #Rest of division
 print('Absolute value:', absolute)
+
+#operator precedence
+
+# 1. (n + n)
+# 2. **
+# 3. * / // %
+# 4. + -
